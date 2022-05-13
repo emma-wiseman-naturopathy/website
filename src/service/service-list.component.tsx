@@ -77,7 +77,9 @@ class Component extends React.Component<DataState & DispatchProp & RouteProps, {
                         ))}
                     </div>
 
-                    <button onClick={this.enquire('Book an appointment', '')}>Book an appointment</button>
+                    <a href="https://emma-wiseman-naturopathy.cliniko.com/bookings?embedded=true%27">
+              <button>Book an appointment</button>
+            </a>
                 </div>
 
                 <div className="container">
